@@ -1,0 +1,37 @@
+html {
+    font-size: 10px;
+    color:black;
+    background: whitesmoke
+    
+  }
+.center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .center1 {
+      color: white;
+      padding: 50px;
+      font-size: 30px;
+      display: flex;
+      flex: 1;
+      align-items: center;
+      justify-content: center;
+      padding-top: 200px;
+  }
+
+.leftHalf {
+    background: url(drums.jpg) no-repeat;
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    height: 100%;
+ }
+ .rightHalf {
+    background: url(piano.jpg) no-repeat;
+    width: 50%;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+ }
